@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("../image/4-layers.png") no-repeat;
+    background-size: 100%;
+
+}
+main {
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+    position: absolute;
+    z-index: 2;
+    left: 320px;
+    top: 130px;
+}
+.leftcard {
+    width: 400px;
+    height: 391px;
+    display: block;
+    float: left;
+}
+.rightcard {
+    display: block;
+    position: absolute;
+    margin-left: 400px;
+}
+.leftcard__logo {
+    margin-left: 21px;
+    margin-top: 24px;
+}
+.leftcard__sneaker {
+    margin-left: 36px;
+    margin-top: 69px;
+}
+.leftcard__color {
+    display: inline-block;
+}
+.leftcard__allcolors {
+    margin-left: 178px;
+    margin-top: 63px;
+    
+}
+.rightcard__stefan {
+    width: 165px;
+    height: 65px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded", sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-top: 78px;
+    margin-right: 87px;
+}
+.rightcard__unisex {
+    width: 192px;
+    height: 14px;
+    opacity: 0.54;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+.rightcard__star {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+button {
+    background: none;
+    border: none;
+    margin-right: -15px;
+}
+.choiceandbuy__list {
+    background-color: #111a28;
+    color: #e1e1e1;
+    display: inline-block;
+    padding: 5px;
+}
+.addtocard {
+    display: block;
+    margin-top: 29px;
+    background-color: #111a28;
+    padding-left: 54px;
+    padding-top: 14px;
+    padding-right: 60px;
+    padding-bottom: 11px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    border: 1px solid #e1e1e1;
+}
